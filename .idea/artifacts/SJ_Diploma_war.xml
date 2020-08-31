@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SJ_Diploma:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SJ_Diploma</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SJ_Diploma.war">
+      <element id="artifact" artifact-name="SJ_Diploma:war exploded" />
+    </root>
+  </artifact>
+</component>
